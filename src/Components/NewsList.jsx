@@ -15,7 +15,7 @@ export default function NewsList(props){
                     return(
 
                         <div className="col-md-3">
-                            <div className="card mb-3">
+                            <div className="card mb-4">
                                 <img src={item.urlToImage ??"logo de sonic.png"} class="card-img-top" alt={item.title}/>
                                 <div className="card-body">
                                     <h5 className="card-title">{item.title}</h5>
